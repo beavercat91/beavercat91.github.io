@@ -14,7 +14,7 @@ html{
 body {
     width: 100%;
     height: 100%;
-    background: url(/nebula.jpg) no-repeat center fixed;
+    background: url(nebula.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
@@ -24,7 +24,7 @@ section{
 
 a{
     text-decoration: none;
-    color: orangered;
+    color: red;
 }
 
 p{
@@ -100,6 +100,7 @@ header{
 }
 
 .top-nav{
+    z-index: 1500;
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -142,6 +143,7 @@ li{
 }
 
 .menu-toggler{
+    z-index: 1501;
     position: absolute;
     top: 5rem;
     right: 5rem;
@@ -157,38 +159,43 @@ li{
 }
 
 .menu-toggler.open{
+    z-index: 1501;
     transform: rotate(-45deg);
 }
 
-.bar{
+.bar {
+    z-index: 1501;
     background: linear-gradient(to right, red, orange);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
-
 }
 
-.bar.half{
-    width: 50%;
-}
+    .bar.half {
+        z-index: 1501;
+        width: 50%;
+    }
 
-.bar.start{
-    align-self: flex-end;
-    transform-origin: left;
-    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
-}
-
-.open .bar.start{
-    transform: rotate(-850deg) translateX(.8rem);
-
-}
-
-    .bar.end{
-        transform-origin: right;
+    .bar.start {
+        z-index: 1501;
+        align-self: flex-end;
+        transform-origin: left;
         transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
     }
 
-.open .bar.end{
+.open .bar.start {
+    z-index: 1501;
+    transform: rotate(-850deg) translateX(.8rem);
+}
+
+.bar.end {
+    z-index: 1501;
+    transform-origin: right;
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+.open .bar.end {
+    z-index: 1501;
     transform: rotate(-400deg) translateX(-.8rem);
 }
 
@@ -516,6 +523,9 @@ input[type="submit"]:hover{
     .landing-text h1{
         font-size: 15rem;
     }
+    .landing-text h6{
+        font-size: 1.7rem;
+    }
     .nav-list{
         flex-direction: column;
     }
@@ -576,7 +586,7 @@ input[type="submit"]:hover{
         font-size: 8rem;
     }
 
-    .landing-text{
+    .landing-text h6{
         font-size: 1.4rem;
     }
 
@@ -597,7 +607,7 @@ input[type="submit"]:hover{
     
     .portfolio-img{
         margin: 0 0 2rem 0;
-        order:1;
+        order: 1;
     }
 
     .portfolio-description{
