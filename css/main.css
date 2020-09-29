@@ -99,6 +99,16 @@ header{
     height: 100vh;
 }
 
+.fixedNav #navigationBar {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+}
+
+#navigationBar {
+    width: 100%;
+}
+
 .top-nav{
     z-index: 1500;
     width: 100%;
