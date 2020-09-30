@@ -403,6 +403,13 @@ li{
 /*End services*/
 
 /*Start timeline*/
+.timline{
+    background: rgb(128, 128, 128, 0.3);
+    padding: 10px;
+    text-align: justify;
+    border:solid rgb(239, 223, 37, 0.3)
+} 
+
 .timeline ul{
     border-left: 4px solid #ffe838;
     border-radius: .8rem;
