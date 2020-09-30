@@ -39,7 +39,6 @@ img{
 
 /*Start reusable*/
 .container{
-    overflow-x: hidden;
     width: 90%;
     max-width: 120rem;
     margin: 0 auto;
