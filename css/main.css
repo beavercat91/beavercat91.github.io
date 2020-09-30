@@ -135,7 +135,7 @@ li{
 }
 
 .nav-link{
-    font-family: "Inhuman';
+    font-family: 'Inhuman';
     background: linear-gradient(to top, red, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -227,7 +227,7 @@ li{
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
-        background: linear-gradient(to top, orange, red);
+        background: linear-gradient(to top, red, yellow, orange);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding: 1rem;
