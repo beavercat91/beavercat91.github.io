@@ -227,7 +227,7 @@ li{
         font-family: 'Inhuman';
         font-weight: normal;
         font-style: normal;
-        background: linear-gradient(to top, blue, purple);
+        background: linear-gradient(to top, orange, red);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding: 1rem;
