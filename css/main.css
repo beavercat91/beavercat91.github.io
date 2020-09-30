@@ -321,8 +321,17 @@ li{
     padding: 2rem;
 }
 
+.skill p{
+    font-size: 2rem;
+    background: rgb(128, 128, 128, 0.3);
+    padding: 10rem;
+    text-align: justify;
+    border: solid rgb(239, 223, 37, 0.3);
+}
+
 .skill h1{
     text-transform: uppercase;
+    font-size: 3rem
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
