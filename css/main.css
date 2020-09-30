@@ -571,7 +571,7 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @font-face {
     font-family: "Inhuman";
-    src: url("Inhuman.woff") format('woff');
+    src: url("/Inhuman.woff") format('woff');
 }
 
 @font-face {
