@@ -224,7 +224,7 @@ li{
 
     .landing-text h1 {
         font-size: 20rem;
-        font-family: 'Inhuman BB';
+        font-family: 'Inhuman';
         font-weight: normal;
         font-style: normal;
         background: linear-gradient(to top, blue, purple);
@@ -569,6 +569,10 @@ input[type="submit"]:hover{
 /*End animations*/
 
 /*Start media queries*/
+@font-face {
+    font-family: "Inhuman";
+    src: url("Inhuman.woff") format('woff');
+}
 
 @font-face {
     font-family: "cyber";
