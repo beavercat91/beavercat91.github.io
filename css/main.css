@@ -16,6 +16,7 @@ body {
     height: 100%;
     background: url(/black.jpg) no-repeat center fixed;
     background-size: cover;
+}
 
 section{
     padding: 6rem 0;
