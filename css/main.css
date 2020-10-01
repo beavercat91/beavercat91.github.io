@@ -409,14 +409,14 @@ li{
     color: orange;
     transition: color 650ms;
     border-radius: 12px;
-    background: radial-gradient(blue, purple);
+    background: radial-gradient(red, red, red, orange);
     padding: 2.5px;
     border: inset blue 1px; 
 }
 
 .portfolio-description .cta:hover {
     color: orange;
-    background: radial-gradient(blue, blue, purple);
+    background: radial-gradient(red, red, red, red, orange);
     border: inset blue 1px;
     animation: glowing 1300ms infinite;
 }
