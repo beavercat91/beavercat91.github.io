@@ -409,14 +409,14 @@ li{
     color: linear-gradient (to top, orange, red, red, orange);
     transition: color 650ms;
     border-radius: 12px;
-    background: rgba(255,255,255, .8);
-    padding: 2.5px;
+    background: rgba(255,255,255,);
+    padding: 3.5px;
     border: inset orange 1px; 
 }
 
 .portfolio-description .cta:hover {
     color: linear-gradient (to top, orange, red, red, orange);
-    background: rgba(255,255,255, .3);
+    background: rgba(255,255,255,);
     border: inset red 1px;
     animation: glowing 1300ms infinite;
 }
