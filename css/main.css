@@ -409,7 +409,7 @@ li{
     color: linear-gradient (to top, orange, red, red, orange);
     transition: color 650ms;
     border-radius: 12px;
-    background: rgba(255,255,255, .8)
+    background: rgba(255,255,255, .8);
     padding: 2.5px;
     border: inset orange 1px; 
 }
