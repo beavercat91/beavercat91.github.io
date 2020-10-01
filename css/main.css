@@ -295,7 +295,6 @@ li{
 
 .fa-github:hover{
     color: aqua;
-    animation: pulse 2s infinite;
 }
 
 .fa-facebook-square {
@@ -304,12 +303,10 @@ li{
 
     .fa-facebook-square:hover {
     color: aqua;
-    animation: pulse 2s infinite;
     }
 
 .fa-etsy:hover {
     color: aqua;
-    animation: pulse 2s infinite;
 }
 /*End about*/
 
