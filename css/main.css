@@ -563,17 +563,17 @@ input[type="submit"]:hover{
 @keyframes glowing {
     0% {
         background-color: maroon;
-        box-shadow: 0 0 9px maroon;
+        box-shadow: 0 0 3px maroon;
     }
 
     50% {
         background-color: maroon;
-        box-shadow: 0 0 16px maroon;
+        box-shadow: 0 0 30px maroon;
     }
 
     100% {
         background-color: maroon;
-        box-shadow: 0 0 9px maroon;
+        box-shadow: 0 0 10px maroon;
     }
 }
 
