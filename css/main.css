@@ -421,15 +421,8 @@ li{
 /*End services*/
 
 /*Start timeline*/
-.timline{
-    background: rgb(128, 128, 128, 0.3);
-    padding: 10px;
-    text-align: justify;
-    border:solid rgb(239, 223, 37, 0.3)
-} 
-
 .timeline ul{
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid orange;
     border-radius: .8rem;
     background-color: rgba(0,0,0,0.05);
     margin: 0 auto;
@@ -480,7 +473,7 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px rgb(255, 70, 0);
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -491,8 +484,7 @@ li{
 
 /*Start contact*/
 .contact{
-    background-color: #221e3f;
-
+    background-color: rgb(42, 41, 41, .9);
 }
 
 form{
