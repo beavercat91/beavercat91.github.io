@@ -386,13 +386,13 @@ li{
 }
 
     .portfolio-description h1{
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 300;
         margin: 1rem 0;
     }
 
 .portfolio-description h6{
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     font-weight: 300;
     opacity: 0.3;
