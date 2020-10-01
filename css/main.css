@@ -328,7 +328,7 @@ li{
 }
 
 .skill p{
-    font-size: 2rem;
+    font-size: .9vw;
     background: rgb(128, 128, 128, 0.3);
     padding: 2rem;
     text-align: justify;
@@ -337,7 +337,7 @@ li{
 
 .skill h1{
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 1.2vw;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
