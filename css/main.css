@@ -406,7 +406,7 @@ li{
     margin-top: 2.5rem;
     font-size: 2rem;
     text-transform: uppercase;
-    font-color: linear-gradient(to top, orange, red, red, orange);
+    color: orange;
     transition: color 650ms;
     border-radius: 12px;
     background: rgba(31, 30, 30);
@@ -415,7 +415,7 @@ li{
 }
 
 .portfolio-description .cta:hover {
-    font-color: linear-gradient(to top, orange, red, red, orange);
+    font-color: orange;
     background: rgba(31, 30, 30);
     border: inset red 1px;
     animation: glowing 1300ms infinite;
@@ -562,18 +562,18 @@ input[type="submit"]:hover{
 /*Start animations*/
 @keyframes glowing {
     0% {
-        background-color: orange;
-        box-shadow: 0 0 3px orange;
+        background-color: red;
+        box-shadow: 0 0 5px red;
     }
 
     50% {
-        background-color: orange;
-        box-shadow: 0 0 10px orange;
+        background-color: red;
+        box-shadow: 0 0 12px red;
     }
 
     100% {
-        background-color: orange;
-        box-shadow: 0 0 3px orange;
+        background-color: red;
+        box-shadow: 0 0 5px red;
     }
 }
 
