@@ -156,7 +156,7 @@ li{
 }
 
 .menu-toggler{
-    z-index: 1501;
+    z-index: 2000;
     position: absolute;
     top: 5rem;
     right: 5rem;
@@ -166,7 +166,6 @@ li{
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-    z-index: 1500;
     transition: transform 650ms ease-out;
 
 }
