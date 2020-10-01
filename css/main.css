@@ -406,17 +406,17 @@ li{
     margin-top: 2.5rem;
     font-size: 3rem;
     text-transform: uppercase;
-    color: orange;
+    color: linear-gradient (to top, orange, red, red, orange);
     transition: color 650ms;
     border-radius: 12px;
-    background: radial-gradient(red, red, red, orange);
+    background: rgba(255,255,255, .8)
     padding: 2.5px;
     border: inset orange 1px; 
 }
 
 .portfolio-description .cta:hover {
-    color: orange;
-    background: radial-gradient(red, red, red, red, orange);
+    color: linear-gradient (to top, orange, red, red, orange);
+    background: rgba(255,255,255, .3);
     border: inset red 1px;
     animation: glowing 1300ms infinite;
 }
