@@ -417,7 +417,7 @@ li{
 .portfolio-description .cta:hover {
     font-color: orange;
     background: rgba(31, 30, 30);
-    border: inset red 1px;
+    border: inset orange 1px;
     animation: glowing 1300ms infinite;
 }
 
