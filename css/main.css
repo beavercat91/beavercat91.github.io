@@ -411,13 +411,13 @@ li{
     border-radius: 12px;
     background: rgba(31, 30, 30);
     padding: 3.5px;
-    border: inset orange 1px; 
+    border: inset orange 3px; 
 }
 
 .portfolio-description .cta:hover {
     font-color: orange;
     background: rgba(31, 30, 30);
-    border: inset orange 1px;
+    border: inset orange 3px;
     animation: glowing 1300ms infinite;
 }
 
@@ -511,18 +511,23 @@ textarea{
 }
 
 input[type="submit"]{
+    margin-top: 2.5rem;
     width: initial;
-    background-color: red;
-    color: #eee;
-    padding: 1rem 2rem;
-    border-radius: .8rem;
+    font-size: 2rem;
+    background: rgb(31, 30, 30);
+    color: orange;
+    padding: 3.5px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 650ms;
+    transition: color 650ms;
+    border: inset orange 3px;
 }
 
-input[type="submit"]:hover{
-    color: green;
-    background-color: #ffe838;
+input[type="submit"]:hover {
+    font-color: orange;
+    background: rgba(31, 30, 30);
+    border: inset orange 3px;
+    animation: glowing 1300ms infinite;
 }
 /*End contact*/
 
