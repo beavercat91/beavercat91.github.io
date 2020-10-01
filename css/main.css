@@ -227,7 +227,7 @@ li{
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
-        background: linear-gradient(to top, yellow, red, red, red);
+        background: linear-gradient(to top, yellow, red, red);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding: 1rem;
@@ -238,7 +238,7 @@ li{
     font-style: italic;
     font-size: 5rem;
     font-weight: 300;
-    background: linear-gradient(to top, red, red, yellow, red, red);
+    background: linear-gradient(to top, yellow, red, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
