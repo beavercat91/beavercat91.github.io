@@ -404,7 +404,7 @@ li{
 .portfolio-description .cta {
     display: inline-block;
     margin-top: 2.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     color: linear-gradient (to top, orange, red, red, orange);
     transition: color 650ms;
