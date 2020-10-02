@@ -345,11 +345,11 @@ li{
     margin: 2rem -2px 2rem 0;
 }
 
-.icon.container{
+.icon-container{
     width: 10rem;
     height: 10rem;
     border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    background-color: orangered;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
