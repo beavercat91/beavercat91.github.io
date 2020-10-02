@@ -512,7 +512,7 @@ form label{
     font-size: 17rem;
     left: 49rem;
     top: 6.5rem;
-    background-image: url(matrix.gif);
+    background-image: url(/matrix.gif);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
