@@ -323,7 +323,6 @@ li{
 }
 
 .skill{
-    float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
