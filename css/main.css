@@ -223,6 +223,7 @@ li{
 
     .landing-text h1 {
         font-size: 20rem;
+        z-index: 1400;
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
