@@ -413,7 +413,7 @@ li{
     margin-top: 2.5rem;
     font-size: 2rem;
     text-transform: uppercase;
-    color: orange;
+    color: white;
     transition: color 650ms;
     border-radius: 12px;
     background: rgba(31, 30, 30);
@@ -422,7 +422,7 @@ li{
 }
 
 .portfolio-description .cta:hover {
-    font-color: orange;
+    font-color: white;
     background: rgba(31, 30, 30);
     border: inset orange 3px;
     animation: glowing 1300ms infinite;
