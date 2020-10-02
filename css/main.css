@@ -522,7 +522,7 @@ input[type="submit"]{
     width: initial;
     font-size: 2rem;
     background: rgb(31, 30, 30);
-    color: orange;
+    color: white;
     padding: 3.5px;
     border-radius: 12px;
     cursor: pointer;
@@ -531,7 +531,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover {
-    font-color: orange;
+    font-color: white;
     background: rgba(31, 30, 30);
     border: inset orange 3px;
     animation: glowing 1300ms infinite;
