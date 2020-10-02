@@ -513,7 +513,7 @@ form label{
     left: -40rem;
     top: 20rem;
     transform: rotate(150deg);
-    background-image: url(matrix.gif);
+    background-image: url(/matrix.gif);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
