@@ -226,7 +226,7 @@ li{
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
-        background-image: url(/matrix.gif);
+        background-image: url(matrix.gif);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding: 1rem;
