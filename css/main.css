@@ -238,7 +238,7 @@ li{
     font-family: 'cyber';
     font-size: 10rem;
     font-weight: 300;
-    background: linear-gradient(to top, yellow, red, red);
+    background-image: url(/light.gif)
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
