@@ -30,3 +30,25 @@ body {
     background: url(nebula.jpg) no-repeat center fixed;
     background-size: cover;
 }
+
+.landing-text h1 {
+    font-size: 20rem;
+    z-index: 1400;
+    font-family: 'Cyber';
+    font-weight: normal;
+    font-style: normal;
+    background-image: url(/Beam.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+
+    .landing-text h6 {
+        font-family: 'cyber';
+        font-size: 10rem;
+        font-weight: 300;
+        background: orange;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
