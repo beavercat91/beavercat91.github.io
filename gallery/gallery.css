@@ -28,13 +28,13 @@ html {
         width: 100%;
     }
 
-.container{
+.videos{
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
 }
 
-.cantainer iframe{
+.videos iframe{
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
