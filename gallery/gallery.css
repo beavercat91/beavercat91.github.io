@@ -88,6 +88,12 @@ header {
     .landing-text h6 {
         font-size: 3rem;
     }
+    
+      .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -99,6 +105,11 @@ header {
     .landing-text h1 {
         font-size: 7rem;
     }
+    
+      .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 
     .landing-text h6 {
         font-size: 3rem;
