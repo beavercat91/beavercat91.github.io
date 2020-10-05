@@ -26,6 +26,7 @@ html {
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
+        border: 5px inset orange;
     }
 
 body {
