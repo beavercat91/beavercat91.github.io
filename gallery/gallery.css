@@ -17,13 +17,21 @@ body {
     background: url(nebula.jpg) no-repeat center fixed;
     background-size: cover;
 }
-}
 
 .heading {
     background: white;
     height: 5%;
     margin: 10px;
     padding: 10px;
+    font-size: 20rem;
+    font-family: 'cyber';
+    font-weight: normal;
+    font-style: normal;
+    background: linear-gradient(to top, blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     padding: 1rem;
+     user-select: none;
 }
 
 .swiper-container {
@@ -202,4 +210,7 @@ body {
         transform: rotate(10deg) translate3d(0, 0, 0);
     }
 
-    
+    @font-face {
+    font-family: "cyber";
+    src: url("cyber.woff") format('woff');
+}
