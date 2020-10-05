@@ -13,20 +13,20 @@ html {
     margin-top: 50rem;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 5px;
 }
 
 .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 5px;
 }
 
     .column img {
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
-        border: 5px inset orange;
+        border: 4px inset orange;
     }
 
 body {
