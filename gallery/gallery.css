@@ -57,7 +57,7 @@ header {
 }
 
 .landing-text h1 {
-    font-size: 10rem;
+    font-size: 9rem;
     z-index: 1400;
     font-family: 'cyber';
     font-weight: normal;
@@ -71,7 +71,7 @@ header {
 
     .landing-text h6 {
         font-family: 'cyber';
-        font-size: 8rem;
+        font-size: 7rem;
         font-weight: 300;
         background: orange;
         -webkit-background-clip: text;
@@ -88,11 +88,11 @@ header {
 @media screen and (max-width: 600px) {
 
     .landing-text h1 {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     .landing-text h6 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 }
 
@@ -103,7 +103,7 @@ header {
     }
 
     .landing-text h1 {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     .landing-text h6 {
