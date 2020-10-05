@@ -42,7 +42,6 @@ body {
 
 .swiper-slide {
     text-align: center;
-    background: url(nebula.jpg) no-repeat center fixed;
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
