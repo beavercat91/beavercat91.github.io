@@ -752,13 +752,15 @@ input[type="submit"]:hover {
 
 ::-webkit-scrollbar-track-piece {
     -webkit-box-shadow: inset 0 0 6px white;
-    color: black;
+    background: black;
+    -webkit-text-fill-color: transparent;
 }
 
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px white;
     border-radius: 10px;
-    color: black;
+    background: linear-gradient(to top, purple, red);
+    -webkit-text-fill-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
