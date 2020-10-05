@@ -9,25 +9,29 @@ html {
     color: white;
 }
 
+.iframe{
+
+}
+
 .row {
     margin-top: 50rem;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 5px;
+    padding: 0 4px;
 }
 
 .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 5px;
+    padding: 0 4px;
 }
 
     .column img {
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
-        border: 4px inset orange;
     }
+
 
 body {
     width: 100%;
@@ -52,7 +56,7 @@ header {
 }
 
 .landing-text h1 {
-    font-size: 9rem;
+    font-size: 20rem;
     z-index: 1400;
     font-family: 'cyber';
     font-weight: normal;
@@ -66,7 +70,7 @@ header {
 
     .landing-text h6 {
         font-family: 'cyber';
-        font-size: 7rem;
+        font-size: 8rem;
         font-weight: 300;
         background: orange;
         -webkit-background-clip: text;
@@ -77,24 +81,23 @@ header {
 
 @font-face {
     font-family: "cyber";
-    src: url("/cyber.woff") format('woff');
+    src: url("cyber.woff") format('woff');
 }
 
 @media screen and (max-width: 600px) {
 
     .landing-text h1 {
-        font-size: 7rem;
+        font-size: 10rem;
     }
 
     .landing-text h6 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
-    
-      .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-    
+
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -104,15 +107,15 @@ header {
     }
 
     .landing-text h1 {
-        font-size: 7rem;
+        font-size: 14rem;
     }
-    
-      .column {
-    flex: 50%;
-    max-width: 50%;
-  }
 
     .landing-text h6 {
-        font-size: 3rem;
+        font-size: 6rem;
+    }
+
+    .column {
+        flex: 100%;
+        max-width: 100%;
     }
 }
