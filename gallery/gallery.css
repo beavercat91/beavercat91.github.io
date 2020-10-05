@@ -30,6 +30,7 @@ html {
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
+        border: 5 px inset orange;
     }
 
 
