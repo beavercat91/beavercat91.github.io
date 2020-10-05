@@ -1,3 +1,5 @@
+HTML SCSS JSResult
+EDIT ON
 const swiper = new Swiper('.swiper-container', {
   direction: 'vertical',
   mousewheel: {},
