@@ -28,18 +28,6 @@ html {
         width: 100%;
     }
 
-.videos {
-    flex: 25%;
-    max-width: 50%;
-    padding: 0 4px;
-}
-
-.videos iframe{
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-}
-
 body {
     width: 100%;
     height: 100%;
