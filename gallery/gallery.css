@@ -28,13 +28,7 @@ html {
         width: 100%;
     }
 
-.videos{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.videos iframe{
+.column iframe{
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
