@@ -30,7 +30,7 @@ html {
 
 .videos {
     flex: 25%;
-    max-width: 25%;
+    max-width: 50%;
     padding: 0 4px;
 }
 
