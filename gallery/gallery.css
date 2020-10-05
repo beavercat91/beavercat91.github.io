@@ -6,6 +6,19 @@ html, body {
     height: 100%;
 }
 
+.landing-text h1 {
+    font-size: 12rem;
+    font-family: 'cyber';
+    font-weight: normal;
+    font-style: normal;
+    background-image: url(/matrix.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+    text-align: center;
+}
+
 body {
     font-family: 'Roboto Slab', serif;
     color: #000;
@@ -13,18 +26,10 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: url(nebula.jpg) no-repeat center fixed;
+    background: url(black.jpg) no-repeat center fixed;
     background-size: cover;
 }
-}
 
-.heading {
-    background: white;
-    height: 5%;
-    margin: 10px;
-    padding: 10px;
-    align-content: center;
-}
 
 .swiper-container {
     width: 100%;
@@ -33,7 +38,7 @@ body {
 
 .swiper-slide {
     text-align: center;
-    background: url(nebula.jpg) no-repeat center fixed;
+    background: url(black.jpg) no-repeat center fixed;
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -175,7 +180,7 @@ body {
 }
 
     .inspire:after {
-        background: url(nebula.jpg) no-repeat center fixed;
+        background: url(black.jpg) no-repeat center fixed;
         content: "";
         height: 155px;
         left: -75px;
@@ -201,8 +206,22 @@ body {
     25% {
         transform: rotate(10deg) translate3d(0, 0, 0);
     }
+}
 
-    @font-face {
+@media screen and (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 11rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .landing-text h1 {
+        font-size: 8rem;
+    }
+}
+
+@font-face {
     font-family: "cyber";
     src: url("cyber.woff") format('woff');
 }
