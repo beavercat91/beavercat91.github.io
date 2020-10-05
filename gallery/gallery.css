@@ -84,7 +84,7 @@ header {
 
 @font-face {
     font-family: "cyber";
-    src: url("cyber.woff") format('woff');
+    src: url("/cyber.woff") format('woff');
 }
 
 @media screen and (max-width: 600px) {
