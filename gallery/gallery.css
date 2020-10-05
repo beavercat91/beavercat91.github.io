@@ -175,7 +175,7 @@ body {
 }
 
     .inspire:after {
-        background: url(black.jpg) no-repeat center fixed;
+        background: url(nebula.jpg) no-repeat center fixed;
         content: "";
         height: 155px;
         left: -75px;
