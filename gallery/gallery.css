@@ -33,7 +33,7 @@ body {
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 20vh;
 }
 
 .landing-text {
@@ -47,7 +47,7 @@ header {
 }
 
 .landing-text h1 {
-    font-size: 20rem;
+    font-size: 10rem;
     z-index: 1400;
     font-family: 'Cyber';
     font-weight: normal;
@@ -67,3 +67,29 @@ header {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+@media screen and (max-width: 600px) {
+
+    .landing-text h1 {
+        font-size: 8rem;
+    }
+
+    .landing-text h6 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: url(nebula.jpg) no-repeat center fixed;
+        background-size: cover;
+    }
+
+    .landing-text h1 {
+        font-size: 8rem;
+    }
+
+    .landing-text h6 {
+        font-size: 3rem;
+    }
+}
