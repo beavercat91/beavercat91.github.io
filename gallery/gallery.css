@@ -1,122 +1,205 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 
-html {
-    font-size: 10px;
-    color: white;
-}
-
-.iframe{
-
-}
-
-.row {
-    margin-top: 50rem;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-    .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-        border: 5 px inset orange;
-    }
-
-
-body {
+html, body {
+    position: relative;
     width: 100%;
     height: 100%;
-    background: url(nebula.jpg) no-repeat center fixed;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(black.jpg) no-repeat center fixed;
     background-size: cover;
 }
-
-header {
-    width: 100%;
-    height: 20vh;
 }
 
-.landing-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.heading {
+    background: white;
+    height: 5%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.swiper-container {
     width: 100%;
+    height: 90%;
+}
+
+.swiper-slide {
     text-align: center;
-    z-index: 1;
+    background: url(black.jpg) no-repeat center fixed;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.landing-text h1 {
-    font-size: 20rem;
-    z-index: 1400;
-    font-family: 'cyber';
-    font-weight: normal;
-    font-style: normal;
-    background-image: url(/matrix.gif);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 1rem;
-    user-select: none;
+.container-general {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 800px;
 }
 
-    .landing-text h6 {
-        font-family: 'cyber';
-        font-size: 8rem;
-        font-weight: 300;
-        background: orange;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    .container-general .gallery-wrap {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70vh;
     }
 
-    /*media queries*/
+        .container-general .gallery-wrap .item {
+            flex: 1;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: none;
+            transition: all 0.8s ease;
+        }
 
-@font-face {
-    font-family: "cyber";
-    src: url("/cyber.woff") format('woff');
+            .container-general .gallery-wrap .item:hover {
+                flex: 7;
+            }
+
+.wrap-effect-1 .item:first-of-type {
+    background-image: url("table1.jpg");
 }
 
-@media screen and (max-width: 600px) {
-
-    .landing-text h1 {
-        font-size: 10rem;
-    }
-
-    .landing-text h6 {
-        font-size: 5rem;
-    }
-
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
+.wrap-effect-1 .item:nth-of-type(2) {
+    background-image: url("table2.jpg");
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        background: url(nebula.jpg) no-repeat center fixed;
-        background-size: cover;
-    }
-
-    .landing-text h1 {
-        font-size: 14rem;
-    }
-
-    .landing-text h6 {
-        font-size: 6rem;
-    }
-
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+.wrap-effect-1 .item:nth-of-type(3) {
+    background-image: url("table3.jpg");
 }
+
+.wrap-effect-1 .item:nth-of-type(4) {
+    background-image: url("table4.jpg");
+}
+
+.wrap-effect-1 .item:last-of-type {
+    background-image: url("table5.jpg");
+}
+
+.wrap-effect-2 .item:hover {
+    transform: translate3d(0, 0, 100px);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    filter: saturate(2) contrast(120%);
+}
+
+.wrap-effect-2 .item:first-of-type {
+    background-image: url("table6.jpg");
+}
+
+.wrap-effect-2 .item:nth-of-type(2) {
+    background-image: url("table7.jpg");
+}
+
+.wrap-effect-2 .item:nth-of-type(3) {
+    background-image: url("table8.jpg");
+}
+
+.wrap-effect-2 .item:nth-of-type(4) {
+    background-image: url("table9.jpg");
+}
+
+.wrap-effect-2 .item:last-of-type {
+    background-image: url("board1.jpg");
+}
+
+.wrap-effect-3 .item:hover {
+    animation: rotate 0.7s ease-in-out both;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.wrap-effect-3 .item:first-of-type {
+    background-image: url("board2.jpg");
+}
+
+.wrap-effect-3 .item:nth-of-type(2) {
+    background-image: url("board3.jpg");
+}
+
+.wrap-effect-3 .item:nth-of-type(3) {
+    background-image: url("board4.jpg");
+}
+
+.wrap-effect-3 .item:nth-of-type(4) {
+    background-image: url("board5.jpg");
+}
+
+.wrap-effect-3 .item:last-of-type {
+    background-image: url("board6.jpg");
+}
+
+.wrap-effect-4 .item:hover {
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    filter: saturate(2) contrast(120%);
+}
+
+.wrap-effect-4 .item:first-of-type {
+    background-image: url("board7.jpg");
+}
+
+.wrap-effect-4 .item:nth-of-type(2) {
+    background-image: url("board8.jpg");
+}
+
+.wrap-effect-4 .item:nth-of-type(3) {
+    background-image: url("board9.jpg");
+}
+
+.wrap-effect-4 .item:nth-of-type(4) {
+    background-image: url("rack.jpg");
+}
+
+.wrap-effect-4 .item:last-of-type {
+    background-image: url("table.jpg");
+}
+
+.inspire {
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+    .inspire:after {
+        background: url(black.jpg) no-repeat center fixed;
+        content: "";
+        height: 155px;
+        left: -75px;
+        opacity: .4;
+        position: absolute;
+        top: -50px;
+        transform: rotate(35deg);
+        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+        width: 50px;
+        z-index: -10;
+    }
+
+    .inspire:hover:after {
+        left: 120%;
+        transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+
+    25% {
+        transform: rotate(10deg) translate3d(0, 0, 0);
+    }
+
+    
