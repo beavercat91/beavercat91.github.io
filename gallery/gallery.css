@@ -26,7 +26,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: url(black.jpg) no-repeat center fixed;
+    background: url(nebula.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
@@ -38,7 +38,7 @@ body {
 
 .swiper-slide {
     text-align: center;
-    background: url(black.jpg) no-repeat center fixed;
+    background: url(nebula.jpg) no-repeat center fixed;
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -180,7 +180,7 @@ body {
 }
 
     .inspire:after {
-        background: url(black.jpg) no-repeat center fixed;
+        background: url(nebula.jpg) no-repeat center fixed;
         content: "";
         height: 155px;
         left: -75px;
