@@ -120,24 +120,23 @@ body {
 }
 
 .wrap-effect-3 .item:hover {
-    animation: rotate 0.7s ease-in-out both;
     border-radius: 10px;
     border: 1px solid gray;
 }
 
-.wrap-effect-1 .item:first-of-type {
+.wrap-effect-3 .item:first-of-type {
     background-image: url("board2.jpg");
 }
 
-.wrap-effect-1 .item:nth-of-type(2) {
+.wrap-effect-3 .item:nth-of-type(2) {
     background-image: url("board3.jpg");
 }
 
-.wrap-effect-1 .item:nth-of-type(3) {
+.wrap-effect-3 .item:nth-of-type(3) {
     background-image: url("board4.jpg");
 }
 
-.wrap-effect-1 .item:nth-of-type(4) {
+.wrap-effect-3 .item:nth-of-type(4) {
     background-image: url("board5.jpg");
 }
 
