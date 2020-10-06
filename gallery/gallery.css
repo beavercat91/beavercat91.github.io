@@ -251,6 +251,6 @@ body {
 ::-webkit-scrollbar-thumb {
     border-radius: 25px;
     -webkit-box-shadow: inset 0 0 6px white;
-    background: linear-gradient(to top, purple, orange);
+    background: linear-gradient(to top, red, orange);
     -webkit-text-fill-color: transparent;
 }
