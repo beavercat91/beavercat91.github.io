@@ -254,3 +254,65 @@ body {
     background: linear-gradient(to top, red, orange);
     -webkit-text-fill-color: transparent;
 }
+
+/*videos*/
+
+.resp-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    width: 500px; /* It should not be 100% */
+    height: 500px;
+    margin-left: auto; /* Automatic margin from left */
+    margin-right: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 2000px;
+    width: 50%;
+    height: 1050px;
+    display: grid;
+    grid-template-columns: 100% 100%;
+    grid-row: auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+    .container .box {
+        padding: 1px;
+        border-radius: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+
+    .container iframe {
+        /* the width and height here are your "unshrunken" sizes.  Important bc of the scale variable later. */
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border: none;
+        -webkit-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -webkit-transform: scale(1, 1);
+        /* Gets the size down to fit into your .thumbnail. */
+        -moz-transform: scale(1, 1);
+        /* Gets the size down to fit into your .thumbnail. */
+        transform: scale(1, 1);
+        /* Gets the size down to fit into your .thumbnail. */
+        overflow: hidden;
+        display: grid;
+    }
