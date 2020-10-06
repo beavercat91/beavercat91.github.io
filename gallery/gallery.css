@@ -120,6 +120,7 @@ body {
 }
 
 .wrap-effect-3 .item:hover {
+    animation: rotate 0.7s ease-in-out both;
     border-radius: 10px;
     border: 1px solid gray;
 }
@@ -140,7 +141,7 @@ body {
     background-image: url("board5.jpg");
 }
 
-.wrap-effect-1 .item:last-of-type {
+.wrap-effect-3 .item:last-of-type {
     background-image: url("board6.jpg");
 }
 
