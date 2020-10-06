@@ -325,3 +325,51 @@ body {
         top: 0;
         border: inset orange 5px;
     }
+
+/*Start footer*/
+.copyright {
+    width: 100%;
+    text-align: center;
+    background-color: #16162d;
+    padding: 2rem 0;
+    position: relative;
+    color: white;
+}
+
+#up {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color: #eee;
+    top: -2.5rem;
+    right: 5rem;
+    border-radius: 100%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+    #up i {
+        color: red;
+        font-size: 2rem;
+        margin: auto;
+    }
+
+    #up i {
+        font-size: 1.4rem;
+    }
+
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(191, 41, 20, 0.99);
+            }
+
+            70% {
+                box-shadow: 0 0 0 2rem rgba(191, 31, 2, 0.00);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(191, 51, 20, 0.00);
+            }
+        }
