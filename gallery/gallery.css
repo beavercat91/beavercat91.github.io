@@ -7,10 +7,6 @@ html,body
     height: 100%;
 }
 
-html{
-overflow-y: scroll;
-}
-
 .landing-text h1 {
     font-size: 12rem;
     font-family: 'cyber';
@@ -33,6 +29,7 @@ body {
     height: 100%;
     background: url(nebula.jpg) no-repeat center fixed;
     background-size: cover;
+    overflow-y: scroll;
 }
 
 
