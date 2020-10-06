@@ -4,7 +4,10 @@ html, body {
     position: relative;
     width: 100%;
     height: 100%;
-    overflow-y:scroll;
+}
+
+html{
+    overflow-y: scroll;
 }
 
 .landing-text h1 {
