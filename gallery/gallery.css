@@ -7,10 +7,6 @@ html, body {
     overflow-y:scroll;
 }
 
-html{
-    overflow-y:scroll;
-}
-
 .landing-text h1 {
     font-size: 12rem;
     font-family: 'cyber';
