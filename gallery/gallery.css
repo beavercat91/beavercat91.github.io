@@ -317,9 +317,11 @@ body {
     border: inset orange 5px;
 }
 
-    .container h1 {
+    .header h1 {
         background: linear-gradient(to right, red, purple);
         font-family: cyber;
         text-align: center;
-        color: orange;
+        color: white;
+        top: 0;
+        border: inset orange 5px;
     }
