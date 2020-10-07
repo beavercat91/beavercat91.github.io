@@ -410,6 +410,7 @@ li{
     padding: 10px;
     text-align: justify;
     border:inset mediumvioletred;
+    border-radius: 1rem;
 } 
 
 .portfolio-description .cta {
