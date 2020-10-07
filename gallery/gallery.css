@@ -31,7 +31,9 @@ html,body
     padding: 1rem;
     user-select: none;
     text-align: center;
-    color: orange;
+    background: linear-gradient(to right, red, purple);
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 body {
