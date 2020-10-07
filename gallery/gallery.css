@@ -25,18 +25,16 @@ html,body
 }
 
 .landing-text h6 {
-    background: linear-gradient(to right, mediumvioletred, purple);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: mediumvioletred;
     font-size: 3rem;
     user-select: none;
     text-align: center;
-    background-color: mediumvioletred;
-    border: inset rgb(200, 8, 73, 0.4) 5px;
-    border-radius: 2rem;
+    background-color: rgb(219, 0, 154, 0.4);
     padding: 5px;
     width: 40%;
     margin: 0 auto;
+    border-radius: 1rem;
+    border: inset mediumvioletred;
 }
 
 body {
