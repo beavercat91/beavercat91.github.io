@@ -281,7 +281,7 @@ li{
     background: rgb(128, 128, 128, 0.3);
     padding: 10px;
     text-align: justify;
-    border:solid rgb(239, 223, 37, 0.3)
+    border: inset mediumvioletred;
 } 
 
 .social-media{
@@ -336,7 +336,7 @@ li{
     background: rgb(128, 128, 128, 0.3);
     padding: 2rem;
     text-align: justify;
-    border: solid rgb(239, 223, 37, 0.3);
+    border: inset mediumvioletred;
 }
 
 .skill h1{
@@ -406,7 +406,7 @@ li{
     background: rgb(128, 128, 128, 0.3);
     padding: 10px;
     text-align: justify;
-    border:solid rgb(239, 223, 37, 0.3)
+    border:inset mediumvioletred;
 } 
 
 .portfolio-description .cta {
