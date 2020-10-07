@@ -16,9 +16,8 @@ html,body
     font-family: 'cyber';
     font-weight: normal;
     font-style: normal;
-    background-image: url(/matrix.gif);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: mediumvioletred;
+    text-shadow: 0 0 20px mediumvioletred;
     padding: 1rem;
     user-select: none;
     text-align: center;
