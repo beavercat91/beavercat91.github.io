@@ -21,7 +21,7 @@ html,body
 }
 
 .landing-text h6 {
-    8rem;
+    font-size: 8rem;
     font-weight: normal;
     font-style: normal;
     padding: 1rem;
