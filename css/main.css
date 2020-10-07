@@ -136,7 +136,7 @@ li{
 
 .nav-link{
     font-family: 'Inhuman';
-    background: linear-gradient(to top, red, orange);
+    background: linear-gradient(to top, purple, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 5rem;
@@ -145,7 +145,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, purple, orange);
+    background: linear-gradient(to top, purple, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
