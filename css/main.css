@@ -282,6 +282,7 @@ li{
     padding: 10px;
     text-align: justify;
     border: inset mediumvioletred;
+    border-radius: 1rem;
 } 
 
 .social-media{
@@ -337,6 +338,7 @@ li{
     padding: 2rem;
     text-align: justify;
     border: inset mediumvioletred;
+    border-radius: 1rem;
 }
 
 .skill h1{
@@ -350,6 +352,7 @@ li{
     width: 10rem;
     height: 10rem;
     border: 3px solid rgb(242, 7, 101);
+    border-radius: 1rem;
     background-color: purple;
     margin-bottom: 2rem;
     display: flex;
