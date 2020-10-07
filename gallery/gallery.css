@@ -73,7 +73,7 @@ body {
         flex-direction: column;
         width: 100%;
         height: 95vh;
-        border: inset purple 5px;
+        border: inset mediumvioletred 5px;
         border-radius: 1.5rem;
         background: black;
     }
@@ -86,7 +86,7 @@ body {
             background-repeat: none;
             transition: all 0.8s ease;
             border-radius: 1.5rem;
-            border: inset purple 1px;
+            border: inset mediumvioletred 1px;
         }
 
             .container-general .gallery-wrap .item:hover {
@@ -309,7 +309,7 @@ body {
 }
 
     .container .box iframe {
-        border: inset purple 5px;
+        border: inset mediumvioletred 5px;
         position: absolute;
         top: 0;
         left: 0;
@@ -322,7 +322,7 @@ body {
     position: relative;
     height: 100%;
     overflow-y: scroll;
-    border: inset purple 5px;
+    border: inset mediumvioletred 5px;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 3rem;
@@ -336,7 +336,7 @@ body {
     text-align: center;
     color: white;
     top: 0;
-    border: inset purple 5px;
+    border: inset mediumvioletred 5px;
     width: 90%;
     margin: 0 auto;
     border-radius: 1.5rem;
