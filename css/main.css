@@ -114,7 +114,7 @@ header{
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: #1f1d1d;
+    background-color: mediumvioletred;
     top: -100vh;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
@@ -145,7 +145,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, purple, red);
+    background: linear-gradient(to top, red, purpl);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -349,15 +349,15 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: mediumvioletred;
+    border: 3px solid red;
+    background-color: purple;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i{
-    color: #ffe838;
+    color: red;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
