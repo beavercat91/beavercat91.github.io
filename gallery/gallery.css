@@ -254,6 +254,10 @@ body {
     .landing-text h1 {
         font-size: 8rem;
     }
+    
+    .up{
+    right: 2rem;
+    }
 }
 
 @font-face {
