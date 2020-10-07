@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 
+html{
+    scroll-behavior: smooth;
+}
+
 html,body
 {
     position: relative;
@@ -351,6 +355,10 @@ body {
     color: white;
 }
 
+    .copyright a {
+        color: #eee;
+    }
+
 #up {
     position: absolute;
     width: 5rem;
@@ -371,7 +379,10 @@ body {
     }
 
     #up i {
-        font-size: 1.4rem;
+        font-size: 3rem;
+        background: url(Beam.gif);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 
