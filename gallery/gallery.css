@@ -325,7 +325,8 @@ body {
     position: relative;
     height: 100%;
     overflow-y: scroll;
-    border: inset orange 5px;
+    border: inset mediumvioletred;
+    box-shadow: 0 0 20px mediumvioletred;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 3rem;
@@ -340,7 +341,8 @@ body {
     text-align: center;
     color: white;
     top: 0;
-    border: inset orange 5px;
+    border: inset mediumvioletred;
+    box-shadow: 0 0 20px mediumvioletred;
     width: 90%;
     margin: 0 auto;
     border-top-left-radius: 1.5rem;
