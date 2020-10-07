@@ -25,13 +25,13 @@ html,body
 }
 
 .landing-text h6 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: normal;
     font-style: normal;
     padding: 1rem;
     user-select: none;
     text-align: center;
-    background: linear-gradient(to right, red, purple);
+    background: linear-gradient(to top, red, purple);
         -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
