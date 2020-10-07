@@ -436,7 +436,7 @@ li{
 .timeline ul{
     border-left: 4px solid mediumvioletred;
     border-radius: .8rem;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.2);
     margin: 0 auto;
     position: relative;
     padding: 5rem;
@@ -451,7 +451,7 @@ li{
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .3;
+    opacity: .6;
 }
 
 .timeline .date{
