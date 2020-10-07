@@ -336,7 +336,7 @@ body {
 }
 
 .header h1 {
-    background: linear-gradient(to right, mediumvioletred, purple);
+    background: linear-gradient(to right, purple, red, purple);
     font-family: cyber;
     text-align: center;
     color: white;
