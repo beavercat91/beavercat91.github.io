@@ -349,7 +349,7 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid red;
+    border: 3px solid mediumvioletred;
     background-color: purple;
     margin-bottom: 2rem;
     display: flex;
@@ -357,7 +357,7 @@ li{
 }
 
 .icon-container i{
-    color: red;
+    color: mediumvioletred;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
