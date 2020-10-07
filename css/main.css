@@ -580,7 +580,7 @@ input[type="submit"]:hover {
 
 .up i{
             font-size: 2rem;
-        background: url(Beam.gif);
+        background: url(../Beam.gif);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
