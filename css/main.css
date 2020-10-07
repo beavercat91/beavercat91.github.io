@@ -228,9 +228,8 @@ li{
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
-        background-image: url(/Beam.gif);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: mediumvioletred;
+        text-shadow: 0 0 20px mediumvioletred;
         padding: 1rem;
         user-select: none;
     }
@@ -242,6 +241,7 @@ li{
     background: linear-gradient(to right, mediumvioletred, purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 5px mediumvioletred;
 }
 /*End header*/
 
