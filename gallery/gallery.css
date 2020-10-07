@@ -325,12 +325,12 @@ body {
     position: relative;
     height: 100%;
     overflow-y: scroll;
-    border: inset mediumvioletred 5px;
-    box-shadow: 0 0 20px mediumvioletred;
+    border: inset orange 5px;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 3rem;
-    border-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
     background: black;
 }
 
@@ -340,12 +340,13 @@ body {
     text-align: center;
     color: white;
     top: 0;
-    border: inset mediumvioletred 5px;
-    box-shadow: 0 0 20px mediumvioletred;
+    border: inset orange 5px;
     width: 90%;
     margin: 0 auto;
-    border-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
 }
+
 /*Start footer*/
 .copyright {
     width: 100%;
