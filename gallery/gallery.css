@@ -20,6 +20,16 @@ html,body
     text-align: center;
 }
 
+.landing-text h1 {
+    8rem;
+    font-weight: normal;
+    font-style: normal;
+    padding: 1rem;
+    user-select: none;
+    text-align: center;
+    color: white;
+}
+
 body {
     font-family: 'Roboto Slab', serif;
     color: #000;
