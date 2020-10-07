@@ -329,7 +329,7 @@ body {
     height: 100%;
     overflow-y: scroll;
     border: inset orange 5px;
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 3rem;
 }
