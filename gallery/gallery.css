@@ -35,6 +35,7 @@ html,body
     margin: 0 auto;
     border-radius: 1rem;
     border: inset mediumvioletred;
+    box-shadow: 0 0 20px mediumvioletred;
 }
 
 body {
