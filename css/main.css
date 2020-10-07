@@ -579,7 +579,10 @@ input[type="submit"]:hover {
 }
 
 .up i{
-    font-size: 1.4rem;
+            font-size: 2rem;
+        background: url(Beam.gif);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 /*End footer*/
 
