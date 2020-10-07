@@ -75,6 +75,7 @@ body {
         width: 100%;
         height: 95vh;
         border: inset mediumvioletred 5px;
+        box-shadow: 0 0 20px mediumvioletred;
         border-radius: 1.5rem;
         background: black;
     }
@@ -324,6 +325,7 @@ body {
     height: 100%;
     overflow-y: scroll;
     border: inset mediumvioletred 5px;
+    box-shadow: 0 0 20px mediumvioletred;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 3rem;
@@ -338,6 +340,7 @@ body {
     color: white;
     top: 0;
     border: inset mediumvioletred 5px;
+    box-shadow: 0 0 20px mediumvioletred;
     width: 90%;
     margin: 0 auto;
     border-radius: 1.5rem;
