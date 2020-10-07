@@ -73,6 +73,7 @@ body {
         height: 95vh;
         border: inset orange 5px;
         border-radius: 1.5rem;
+        background: black;
     }
 
         .container-general .gallery-wrap .item {
@@ -324,6 +325,7 @@ body {
     margin: 0 auto;
     margin-bottom: 3rem;
     border-radius: 1.5rem;
+    background: black;
 }
 
 .header h1 {
