@@ -25,7 +25,7 @@ html,body
 }
 
 .landing-text h6 {
-    background: linear-gradient(to right, mediumvioletred, red);
+    background: linear-gradient(to right, mediumvioletred, purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
