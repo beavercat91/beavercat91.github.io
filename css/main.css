@@ -279,7 +279,7 @@ li{
 }
 
 .about-details p {
-    background: rgb(128, 128, 128, 0.6);
+    background: rgb(0, 0, 0, 0.8);
     padding: 10px;
     text-align: justify;
     border: inset mediumvioletred;
@@ -336,7 +336,7 @@ li{
 
 .skill p {
     font-size: 2rem;
-    background: rgb(128, 128, 128, 0.6);
+    background: rgb(0, 0, 0, 0.8);
     padding: 2rem;
     text-align: justify;
     border: inset mediumvioletred;
@@ -410,7 +410,7 @@ li{
 }
 
 .portfolio-description p{
-    background: rgb(128, 128, 128, 0.6);
+    background: rgb(0, 0, 0, 0.8);
     padding: 10px;
     text-align: justify;
     border:inset mediumvioletred;
