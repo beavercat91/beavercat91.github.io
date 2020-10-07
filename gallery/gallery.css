@@ -380,7 +380,7 @@ body {
 
     #up i {
         font-size: 3rem;
-        background: url(Beam.gif);
+        background: url(../Beam.gif);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
