@@ -354,7 +354,7 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid rgb(242, 7, 101);
+    border: 3px solid aqua);
     border-radius: 1rem;
     box-shadow: 0 0 20px aqua;
     background-color: purple;
@@ -773,13 +773,13 @@ input[type="submit"]:hover {
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px white;
     border-radius: 25px;
-    background: linear-gradient(to top, aqua, purple);
+    background: linear-gradient(to top, aqua, red);
     -webkit-text-fill-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 25px;
     -webkit-box-shadow: inset 0 0 6px white;
-    background: linear-gradient(to top, aqua, purple);
+    background: linear-gradient(to top, aqua, red);
     -webkit-text-fill-color: transparent;
 }
