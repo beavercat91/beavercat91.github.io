@@ -238,10 +238,8 @@ li{
     font-family: 'cyber';
     font-size: 10rem;
     font-weight: 300;
-    background: linear-gradient(to right, aqua, purple);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 5px linear-gradient(to right, aqua, purple);
+    color: aqua;
+    text-shadow: 0 0 5px aqua;
 }
 /*End header*/
 
