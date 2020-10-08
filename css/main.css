@@ -136,9 +136,8 @@ li{
 
 .nav-link{
     font-family: 'Inhuman';
-    background: linear-gradient(to top, purple, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: aqua;
+    text-shadow: 0 0 10px aqua;
     font-size: 5rem;
     padding: 1rem;
 }
