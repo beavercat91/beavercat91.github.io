@@ -547,13 +547,14 @@ input[type="submit"]{
     border-radius: 12px;
     cursor: pointer;
     transition: color 650ms;
-    border: inset mediumvioletred 3px;
+    border: inset aqua 3px;
+    box-shadow: 0 0 10px aqua;
 }
 
 input[type="submit"]:hover {
     font-color: white;
     background: rgba(31, 30, 30);
-    border: inset mediumvioletred 3px;
+    border: inset aqua 3px;
     animation: glowing 1300ms infinite;
 }
 /*End contact*/
@@ -597,18 +598,18 @@ input[type="submit"]:hover {
 /*Start animations*/
 @keyframes glowing {
     0% {
-        background-color: maroon;
-        box-shadow: 0 0 10px maroon;
+        background-color: purple;
+        box-shadow: 0 0 10px aqua;
     }
 
     50% {
-        background-color: maroon;
-        box-shadow: 0 0 30px maroon;
+        background-color: purple;
+        box-shadow: 0 0 30px aqua;
     }
 
     100% {
-        background-color: maroon;
-        box-shadow: 0 0 15px maroon;
+        background-color: purple;
+        box-shadow: 0 0 15px aqua;
     }
 }
 
