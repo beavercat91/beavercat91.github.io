@@ -177,11 +177,11 @@ li{
 
 .bar {
     z-index: 1501;
-    background: mediumvioletred;
+    background: aqua;
     width: 100%;
     height: 4px;
     border-radius: .8rem;
-    box-shadow: 0 0 20px mediumvioletred;
+    box-shadow: 0 0 20px aqua;
 }
 
     .bar.half {
@@ -228,8 +228,8 @@ li{
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
-        color: mediumvioletred;
-        text-shadow: 0 0 20px mediumvioletred;
+        color: aqua;
+        text-shadow: 0 0 20px aqua;
         padding: 1rem;
         user-select: none;
     }
@@ -238,10 +238,10 @@ li{
     font-family: 'cyber';
     font-size: 10rem;
     font-weight: 300;
-    background: linear-gradient(to right, mediumvioletred, purple);
+    background: linear-gradient(to right, aqua, purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 5px mediumvioletred;
+    text-shadow: 0 0 5px linear-gradient(to right, aqua, purple);
 }
 /*End header*/
 
@@ -282,9 +282,9 @@ li{
     background: rgb(0, 0, 0, 0.6);
     padding: 10px;
     text-align: justify;
-    border: inset mediumvioletred;
+    border: inset aqua;
     border-radius: 1rem;
-    box-shadow: 0 0 20px mediumvioletred;
+    box-shadow: 0 0 20px aqua;
 } 
 
 .social-media{
@@ -339,9 +339,9 @@ li{
     background: rgb(0, 0, 0, 0.6);
     padding: 2rem;
     text-align: justify;
-    border: inset mediumvioletred;
+    border: inset aqua;
     border-radius: 1rem;
-    box-shadow: 0 0 20px mediumvioletred;
+    box-shadow: 0 0 20px aqua;
 }
 
 .skill h1{
@@ -356,7 +356,7 @@ li{
     height: 10rem;
     border: 3px solid rgb(242, 7, 101);
     border-radius: 1rem;
-    box-shadow: 0 0 20px mediumvioletred;
+    box-shadow: 0 0 20px aqua;
     background-color: purple;
     margin-bottom: 2rem;
     display: flex;
@@ -364,7 +364,7 @@ li{
 }
 
 .icon-container i{
-    color: rgb(242, 7, 101);
+    color: aqua;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -413,9 +413,9 @@ li{
     background: rgb(0, 0, 0, 0.6);
     padding: 10px;
     text-align: justify;
-    border:inset mediumvioletred;
+    border:inset aqua;
     border-radius: 1rem;
-    box-shadow: 0 0 20px mediumvioletred;
+    box-shadow: 0 0 20px aqua;
 } 
 
 .portfolio-description .cta {
@@ -428,15 +428,15 @@ li{
     border-radius: 12px;
     background: rgba(31, 30, 30);
     padding: 3.5px;
-    border: inset mediumvioletred 3px; 
-    box-shadow: 0 0 20px mediumvioletred;
+    border: inset aqua 3px; 
+    box-shadow: 0 0 20px aqua;
 }
 
 .portfolio-description .cta:hover {
     font-color: white;
     background: rgba(31, 30, 30);
-    box-shadow: 0 0 20px mediumvioletred;
-    border: inset mediumvioletred 3px;
+    box-shadow: 0 0 20px aqua;
+    border: inset aqua 3px;
     animation: glowing 1300ms infinite;
 }
 
@@ -445,7 +445,7 @@ li{
 
 /*Start timeline*/
 .timeline ul{
-    border-left: 4px solid mediumvioletred;
+    border-left: 4px solid aqua;
     border-radius: .8rem;
     background-color: rgba(0,0,0,0.2);
     margin: 0 auto;
@@ -773,13 +773,13 @@ input[type="submit"]:hover {
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px white;
     border-radius: 25px;
-    background: linear-gradient(to top, purple, red);
+    background: linear-gradient(to top, aqua, purple);
     -webkit-text-fill-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 25px;
     -webkit-box-shadow: inset 0 0 6px white;
-    background: linear-gradient(to top, purple, red);
+    background: linear-gradient(to top, aqua, purple);
     -webkit-text-fill-color: transparent;
 }
