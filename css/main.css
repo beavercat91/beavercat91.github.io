@@ -137,7 +137,7 @@ li{
 .nav-link{
     font-family: 'Inhuman';
     color: aqua;
-    text-shadow: 0 0 10px aqua;
+    text-shadow: 0 0 10px mediumvioletred;
     font-size: 5rem;
     padding: 1rem;
 }
