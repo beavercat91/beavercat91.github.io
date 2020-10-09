@@ -494,7 +494,7 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 5px 0 15px mediumvioletred;
+    box-shadow: 0 0 30px mediumvioletred;
     border: solid .3rem aqua;
     border-radius: 100%;
     left: -8.2rem;
