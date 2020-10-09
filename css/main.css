@@ -451,7 +451,7 @@ li{
     list-style: none;
     text-align: left;
     width: 70%;
-    box-shadow: -10px 0px 0px 15px pxmediumvioletred;
+    box-shadow: -10px 0px 0px 15px px mediumvioletred;
 
 }
 
