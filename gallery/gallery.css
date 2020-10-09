@@ -11,21 +11,6 @@ html,body
     height: 100%;
 }
 
-.back a {
-    background-color: rgb(219, 0, 154, 0.4);
-    padding: 5px;
-    border: inset aqua 5px;
-    color: aqua;
-    box-shadow: 0 0 10px aqua;
-    box-shadow: 0 0 20px aqua;
-    box-shadow: 0 0 30px aqua;
-    border-radius: 100%;
-    font-size: 3rem;
-    display: inline-block;
-    flex: 1;
-    text-decoration: none;
-}
-
 .landing-text h1 {
     font-size: 12rem;
     font-family: 'cyber';
