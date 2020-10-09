@@ -249,7 +249,7 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .landing-text h1 {
         font-size: 10rem;
     }
