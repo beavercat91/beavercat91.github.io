@@ -17,7 +17,7 @@ html,body
     border: inset aqua 5px;
     color: aqua;
     box-shadow: 0 0 20px aqua;
-    border-radius: 1rem;
+    border-radius: 100%;
     font-size: 1.2rem;
     display: inline-block;
     flex: 1;
