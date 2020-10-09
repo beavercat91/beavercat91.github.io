@@ -238,11 +238,22 @@ body {
     .landing-text h1 {
         font-size: 10rem;
     }
+    html, body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .landing-text h1 {
         font-size: 5rem;
+    }
+    
+    html, body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     }
     
     .up{
