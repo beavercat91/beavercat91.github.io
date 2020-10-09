@@ -638,7 +638,7 @@ input[type="submit"]:hover {
     src: url("/cyber.woff") format('woff');
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     body {
         background: url(/ash.jpg) no-repeat center fixed;
         background-size: cover;
