@@ -696,7 +696,7 @@ input[type="submit"]:hover {
     }
 
     .timeline .date::after{
-        left: -5.9rem;
+        left: -6.2rem;
     }
 }
 
