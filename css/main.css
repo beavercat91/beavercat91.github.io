@@ -442,7 +442,7 @@ li{
 
 /*Start timeline*/
 .timeline ul{
-    border-left: 4px solid aqua;
+    border-left: 4px solid mediumvioletred;
     border-radius: .8rem;
     background-color: rgba(0,0,0,0.2);
     margin: 0 auto;
@@ -451,7 +451,7 @@ li{
     list-style: none;
     text-align: left;
     width: 70%;
-    box-shadow: -10px 0px 0px 15px mediumvioletred;
+    box-shadow: -10px 0px 0px 15px aqua;
 
 }
 
