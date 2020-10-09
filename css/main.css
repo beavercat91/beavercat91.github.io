@@ -493,7 +493,8 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 4px aqua;
+    box-shadow: 0 0 15px aqua;
+    border: solid 1rem aqua
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
