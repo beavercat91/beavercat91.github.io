@@ -269,6 +269,12 @@ li{
 .profile-img{
     flex: 1;
     margin-right: 5rem;
+    max-width: 100%;
+    border:3px inset aqua;
+    box-shadow: 0 0 20px aqua; 
+    border-radius: 1rem; 
+    margin: 0 auto;
+    width: 100%;
 }
 
 .about-details{
@@ -383,6 +389,12 @@ li{
 
 .portfolio-img {
     flex: 1;
+    max-width: 100%;
+    border:3px inset aqua;
+    box-shadow: 0 0 20px aqua; 
+    border-radius: 1rem; 
+    margin: 0 auto;
+    width: 100%
 }
 
 .portfolio-description{
