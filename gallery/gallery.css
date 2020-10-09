@@ -255,7 +255,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .landing-text h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
     
     .up{
