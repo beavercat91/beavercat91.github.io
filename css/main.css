@@ -1,3 +1,4 @@
+/*Start global*/
 *{
     margin: 0;
     padding: 0;
@@ -638,7 +639,7 @@ input[type="submit"]:hover {
     src: url("/cyber.woff") format('woff');
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     body {
         background: url(/ash.jpg) no-repeat center fixed;
         background-size: cover;
