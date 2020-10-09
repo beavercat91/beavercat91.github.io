@@ -40,3 +40,5 @@ $(document).ready(function () {
 		duration: 1800
 	});
 });
+
+document.body.style.zoom = (window.innerWidth / window.outerWidth)
