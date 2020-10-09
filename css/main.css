@@ -493,12 +493,12 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px rgb(255, 70, 0);
+    box-shadow: 0 0 4px aqua;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: mediumvioletred;
+    background-color: #313534;
 }
 /*End timeline*/
 
