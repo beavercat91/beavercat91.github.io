@@ -16,9 +16,11 @@ html,body
     padding: 5px;
     border: inset aqua 5px;
     color: aqua;
+    box-shadow: 0 0 10px aqua;
     box-shadow: 0 0 20px aqua;
+    box-shadow: 0 0 30px aqua;
     border-radius: 100%;
-    font-size: 1.2rem;
+    font-size: 3rem;
     display: inline-block;
     flex: 1;
     text-decoration: none;
