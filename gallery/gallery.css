@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 
-html{
-    scroll-behavior: smooth;
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-html,body
-{
-    position: relative;
+html {
+    scroll-behavior: smooth;
 }
 
 .landing-text h1 {
@@ -15,15 +16,17 @@ html,body
     font-weight: normal;
     font-style: normal;
     color: aqua;
-    text-shadow: 0 0 20px mediumvioletred;
-    padding: 1rem;
+    padding: 12px;
     user-select: none;
     text-align: center;
+    text-shadow: 0 0 30px mediumvioletred;
+    color: 
 }
 
+
 .landing-text h6 {
-    color: aqua;
-    font-size: 2rem;
+    color: firebrick;
+    font-size: 3rem;
     user-select: none;
     text-align: center;
     background-color: rgb(219, 0, 154, 0.4);
@@ -31,8 +34,8 @@ html,body
     width: 40%;
     margin: 0 auto;
     border-radius: 1rem;
-    border: inset aqua;
-    box-shadow: 0 0 20px aqua;
+    border: inset firebrick;
+    box-shadow: 0 0 20px firebrick;
 }
 
 body {
@@ -42,7 +45,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: url(../ash.jpg) no-repeat center fixed;
+    background: url(ash.jpg) no-repeat center fixed;
     background-size: cover;
     overflow-y: scroll;
 }
@@ -55,6 +58,7 @@ body {
 
 .swiper-slide {
     text-align: center;
+
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -62,9 +66,9 @@ body {
 }
 
 .container-general {
-    padding: 75px 0;
+    padding: 40px 0;
     margin: 0 auto;
-    width: 800px;
+    width: 1200px;
 }
 
     .container-general .gallery-wrap {
@@ -72,10 +76,10 @@ body {
         flex-direction: column;
         width: 100%;
         height: 95vh;
-        border: inset aqua 5px;
-        box-shadow: 0 0 20px aqua;
+        border: inset firebrick 5px;
         border-radius: 1.5rem;
         background: black;
+        box-shadow: 0 0 20px firebrick;
     }
 
         .container-general .gallery-wrap .item {
@@ -86,7 +90,7 @@ body {
             background-repeat: none;
             transition: all 0.8s ease;
             border-radius: 1.5rem;
-            border: inset aqua 1px;
+            border: inset orange 1px;
         }
 
             .container-general .gallery-wrap .item:hover {
@@ -204,7 +208,7 @@ body {
 }
 
     .inspire:after {
-        background: url(nebula.jpg) no-repeat center fixed;
+        background: url(black.jpg) no-repeat center fixed;
         content: "";
         height: 155px;
         left: -75px;
@@ -222,6 +226,42 @@ body {
         transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
     }
 
+    .landing-text .cta:hover {
+        color: black;
+        background: black;
+        border: inset blue 1px;
+        animation: glowing 1300ms infinite;
+    }
+
+    /* width */
+
+
+::-webkit-scrollbar {
+    width: 25px;
+    border-radius: 30rem;
+}
+
+::-webkit-scrollbar-track-piece {
+    -webkit-box-shadow: inset 0 0 6px white;
+    background: black;
+    -webkit-text-fill-color: transparent;
+    border-radius: 30rem;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px white;
+    border-radius: 100px;
+    background: linear-gradient(to top, purple, red);
+    -webkit-text-fill-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    -webkit-box-shadow: inset 0 0 6px white;
+    background: linear-gradient(to top, purple, red);
+    -webkit-text-fill-color: transparent;
+}
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg) translate3d(0, 0, 0);
@@ -234,51 +274,28 @@ body {
 
 @media screen and (max-width: 768px) {
     .landing-text h1 {
-        font-size: 10rem;
+        font-size: 11rem;
+    }
+
+    .up {
+        right: 2rem;
     }
 }
 
 @media screen and (max-width: 600px) {
+
     .landing-text h1 {
-        font-size: 5rem;
+        font-size: 8rem;
     }
-}
-    
-    .up{
-    right: 2rem;
+
+    .up {
+        right: 2rem;
     }
 }
 
 @font-face {
     font-family: "cyber";
     src: url("cyber.woff") format('woff');
-}
-
-/*scrollbar*/
-
-::-webkit-scrollbar {
-    width: 25px;
-}
-
-::-webkit-scrollbar-track-piece {
-    -webkit-box-shadow: inset 0 0 6px white;
-    background: black;
-    -webkit-text-fill-color: transparent;
-    border-radius: 30rem;
-}
-
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px white;
-    border-radius: 25px;
-    background: linear-gradient(to top, aqua, mediumvioletred);
-    -webkit-text-fill-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 25px;
-    -webkit-box-shadow: inset 0 0 6px white;
-    background: linear-gradient(to top, aqua, mediumvioletred);
-    -webkit-text-fill-color: transparent;
 }
 
 /*videos*/
@@ -310,7 +327,7 @@ body {
 }
 
     .container .box iframe {
-        border: inset aqua 5px;
+        border: inset orange 5px;
         position: absolute;
         top: 0;
         left: 0;
@@ -323,8 +340,7 @@ body {
     position: relative;
     height: 100%;
     overflow-y: scroll;
-    border: inset aqua;
-    box-shadow: 0 0 20px aqua;
+    border: inset orange 5px;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 3rem;
@@ -334,13 +350,12 @@ body {
 }
 
 .header h1 {
-    background: linear-gradient(to right, aqua, purple, aqua);
+    background: linear-gradient(to right, red, purple);
     font-family: cyber;
     text-align: center;
     color: white;
     top: 0;
-    border: inset aqua;
-    box-shadow: 0 0 20px aqua;
+    border: inset orange 5px;
     width: 90%;
     margin: 0 auto;
     border-top-left-radius: 1.5rem;
@@ -376,13 +391,13 @@ body {
 
     #up i {
         color: red;
-        font-size: 2rem;
+        font-size: 1rem;
         margin: auto;
     }
 
     #up i {
         font-size: 2rem;
-        background: url(../Beam.gif);
+        background: url(Beam.gif);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -401,3 +416,4 @@ body {
                 box-shadow: 0 0 0 0 rgba(191, 51, 20, 0.00);
             }
         }
+
