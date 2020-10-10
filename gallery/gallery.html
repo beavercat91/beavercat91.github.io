@@ -4,22 +4,25 @@
 <head>
     <meta charset="utf-8" />
     <title>Ash Eth Design</title>
-    <meta name="viewport" content="width=device-width, intitial-scale=1.0 maximum-scale=1.0, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0 maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-    <script src="https://kit.fontawesome.com/745a12f2bd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="gallery.css">
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="landing-text" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
+    <div class="loading" id="loading">Loading
+        <img class="loading" id="loading" src="loading.gif" alt="Loading..." />
+    </div>
+    <script type="text/javascript">
+        $("#loading").delay(3000).fadeOut('slow');
+    </script>
+    <div id="head" class="landing-text" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
         <h1>Gallery</h1>
         <h6>Tap or hover to zoom</h6>
     </div>
-     <div class="heading"></div>
+    <div class="heading"></div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -78,7 +81,7 @@
         <div class="header" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
             <h1>Videos</h1>
         </div>
-        <div class="container" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
+        <div class="container" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
             <div class="box">
                 <iframe width="560" height="349" src="https://youtube.com/embed/do3d-ku3r-I" allowfullscreen></iframe>
             </div>
@@ -93,7 +96,7 @@
             </div>
         </div>
         <footer class="copyright">
-            <a class="up" id="up"  href="#">
+            <a class="up" id="up" href="#">
                 <i class="fa fa-chevron-up" aria-hidden="true"></i>
             </a>
             <p>&copy; 2020 Caleb Ashley</p>
@@ -101,11 +104,8 @@
     </div>
 
     <script scr="gallery.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/745a12f2bd.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
+    <script>AOS.init();</script>
 </body>
 </html>
