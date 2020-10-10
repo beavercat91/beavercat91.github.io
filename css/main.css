@@ -783,3 +783,25 @@ input[type="submit"]:hover {
     background: linear-gradient(to top, aqua, mediumvioletred);
     -webkit-text-fill-color: transparent;
 }
+
+/*start loader*/
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+    color: red;
+}
+
+#loading-image {
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    z-index: 100;
+}
