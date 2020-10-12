@@ -282,6 +282,16 @@ body {
     color: white;
 }
 
+/*Start footer*/
+.copyright {
+    width: 100%;
+    text-align: center;
+    background-color: #16162d;
+    padding: 2rem 0;
+    position: relative;
+    color: white;
+}
+
     .copyright a {
         color: #eee;
     }
