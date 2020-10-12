@@ -11,6 +11,30 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+.smooth {
+    transition: height .5s
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+    color: red;
+}
+
+#loading-image {
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    z-index: 100;
+}
+
 html, body {
     position: relative;
     width: 100%;
@@ -29,9 +53,27 @@ html, body {
     text-align: center;
 }
 
+.landing-text h6 {
+    color: aqua;
+    font-size: 2rem;
+    user-select: none;
+    text-align: center;
+    background-color: rgb(219, 0, 154, 0.4);
+    padding: 5px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    border: inset aqua;
+    box-shadow: 0 0 20px aqua;
+}
+
+.custom-cur {
+    cursor: url('/images/droplet.svg'), url('/images/droplet.cur');
+}
+
 body {
     font-family: 'Roboto Slab', serif;
-    color: blue;
+    color: #000;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -39,59 +81,152 @@ body {
     background: url(../ash.jpg) no-repeat center fixed;
     background-size: cover;
     overflow-y: scroll;
+
 }
 
 
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-gap: 10px;
-    -moz-column-gap: 10px;
-    column-gap: 10px;
-    margin-top: 10px;
-    overflow: hidden;
+.swiper-container {
     width: 100%;
+    height: 90%;
 }
 
-.gallery img {
-    width: 100%;
-    height: auto;
-    transition: 500ms;
-    margin-bottom: 10px;
-    opacity: 0.8;
-    page-break-inside: avoid;
-    -webkit-column-break-inside: avoid;
-    break-inside: avoid;
+.swiper-slide {
+    text-align: center;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-    .gallery img:hover {
-        opacity: 1;
+.container-general {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 800px;
+}
+
+    .container-general .gallery-wrap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 95vh;
+        border: inset aqua 5px;
+        box-shadow: 0 0 20px aqua;
+        border-radius: 1.5rem;
+        background: black;
     }
 
-.modal-img, .model-vid {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: table
+        .container-general .gallery-wrap .item {
+            flex: 1;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: none;
+            transition: all 0.8s ease;
+            border-radius: 1.5rem;
+            border: inset aqua 1px;
+        }
+
+            .container-general .gallery-wrap .item:hover {
+                flex: 11;
+            }
+
+.wrap-effect-1 .item:first-of-type {
+    background-image: url("table1.jpg");
 }
 
-.modal-body {
-    padding: 0px;
+.wrap-effect-1 .item:nth-of-type(2) {
+    background-image: url("table2.jpg");
 }
 
-.modal-dialog {
-    height: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.wrap-effect-1 .item:nth-of-type(3) {
+    background-image: url("table3.jpg");
 }
 
-.modal-content {
-    border: 1px solid rgba(22, 76, 167, 0.6);
-    border-radius: 10px;
+.wrap-effect-1 .item:nth-of-type(4) {
+    background-image: url("table4.jpg");
+}
+
+
+
+.wrap-effect-2 .item:hover {
+    transform: translate3d(0, 0, 100px);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    filter: saturate(2) contrast(120%);
+}
+
+.wrap-effect-2 .item:first-of-type {
+    background-image: url("table6.jpg");
+}
+
+.wrap-effect-2 .item:nth-of-type(2) {
+    background-image: url("table7.jpg");
+}
+
+.wrap-effect-2 .item:nth-of-type(3) {
+    background-image: url("table8.jpg");
+}
+
+.wrap-effect-2 .item:nth-of-type(4) {
+    background-image: url("table9.jpg");
+}
+
+
+
+.wrap-effect-3 .item:first-of-type {
+    background-image: url("board2.jpg");
+}
+
+.wrap-effect-3 .item:nth-of-type(2) {
+    background-image: url("board3.jpg");
+}
+
+.wrap-effect-3 .item:nth-of-type(3) {
+    background-image: url("board4.jpg");
+}
+
+.wrap-effect-3 .item:nth-of-type(4) {
+    background-image: url("board5.jpg");
+}
+
+
+
+.wrap-effect-4 .item:hover {
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    filter: saturate(2) contrast(120%);
+}
+
+.wrap-effect-4 .item:first-of-type {
+    background-image: url("board7.jpg");
+}
+
+.wrap-effect-4 .item:nth-of-type(2) {
+    background-image: url("board8.jpg");
+}
+
+.wrap-effect-4 .item:nth-of-type(3) {
+    background-image: url("board9.jpg");
+}
+
+.wrap-effect-4 .item:nth-of-type(4) {
+    background-image: url("rack.jpg");
+}
+
+
+
+.wrap-effect-5 .item:first-of-type {
+    background-image: url("table5.jpg");
+}
+
+.wrap-effect-5 .item:nth-of-type(2) {
+    background-image: url("board1.jpg");
+}
+
+.wrap-effect-5 .item:nth-of-type(3) {
+    background-image: url("board6.jpg");
+}
+
+.wrap-effect-5 .item:nth-of-type(4) {
+    background-image: url("table.jpg");
 }
 
 .inspire {
@@ -134,23 +269,9 @@ body {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .landing-text h1 {
         font-size: 10rem;
-    }
-    .gallery {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
-
-        .gallery div {
-            margin: 0;
-            width: 200px;
-        }
-
-    .modal-dialog {
-        margin: 0 8vw;
     }
 }
 
@@ -162,16 +283,6 @@ body {
     .up {
         right: 2rem;
     }
-    .gallery {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
-
-        .gallery div {
-            margin: 0;
-            width: 200px;
-        }
 }
 
 @font-face {
@@ -270,16 +381,6 @@ body {
     margin: 0 auto;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-}
-
-/*Start footer*/
-.copyright {
-    width: 100%;
-    text-align: center;
-    background-color: #16162d;
-    padding: 2rem 0;
-    position: relative;
-    color: white;
 }
 
 /*Start footer*/
