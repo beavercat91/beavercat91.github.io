@@ -4,105 +4,92 @@
 <head>
     <meta charset="utf-8" />
     <title>Ash Eth Design</title>
-    <meta name="viewport" content="width=device-width, intitial-scale=1.0 maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, intitial-scale=1" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="gallery.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="loading" id="loading">Loading
-        <img class="loading" id="loading" src="loading.gif" alt="Loading..." />
-    </div>
     <script type="text/javascript">
-        $("#loading").delay(2300).fadeOut('slow');
+        $(document).ready(function () {
+        $(".single-image").click(function(){
+        var t = $(this).attr("src");
+        $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+        $("#myModal").modal();
+        });
+        });
     </script>
     <div id="head" class="landing-text" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
         <h1>Gallery</h1>
-        <h6>Tap or hover to zoom</h6>
     </div>
     <div class="heading"></div>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="container-general">
-                    <div class="gallery-wrap wrap-effect-1" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="container-general">
-                    <div class="gallery-wrap wrap-effect-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="container-general">
-                    <div class="gallery-wrap wrap-effect-3" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="container-general wrap-effect-4" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
-                    <div class="gallery-wrap">
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="container-general wrap-effect-5" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
-                    <div class="gallery-wrap">
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
+    <div class="container">
+        <div class="gallery">
+            <img src="table1.jpg" class="single-image" />
+            <img src="table2.jpg" class="single-image" />
+            <img src="table3.jpg" class="single-image" />
+            <img src="table4.jpg" class="single-image" />
+            <img src="table5.jpg" class="single-image" />
+            <img src="table6.jpg" class="single-image" />
+            <img src="table7.jpg" class="single-image" />
+            <img src="table8.jpg" class="single-image" />
+            <img src="table9.jpg" class="single-image" />
+            <img src="table.jpg" class="single-image" />
+            <img src="profile.jpg" class="single-image" />
+            <img src="board1.jpg" class="single-image" />
+            <img src="board2.jpg" class="single-image" />
+            <img src="board3.jpg" class="single-image" />
+            <img src="board4.jpg" class="single-image" />
+            <img src="board5.jpg" class="single-image" />
+            <img src="board6.jpg" class="single-image" />
+            <img src="board7.jpg" class="single-image" />
+            <img src="board8.jpg" class="single-image" />
+            <img src="board9.jpg" class="single-image" />
+            <img src="rack.jpg" class="single-image" />
 
-        <div class="header" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
-            <h1>Videos</h1>
         </div>
-        <div class="container" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
-            <div class="box">
-                <iframe width="560" height="349" src="https://youtube.com/embed/do3d-ku3r-I" allowfullscreen></iframe>
-            </div>
-            <div class="box">
-                <iframe width="560" height="349" src="https://youtube.com/embed/dUppr_J172Q" allowfullscreen></iframe>
-            </div>
-            <div class="box">
-                <iframe width="560" height="349" src="https://youtube.com/embed/klwud-ERPfY" allowfullscreen></iframe>
-            </div>
-            <div class="box">
-                <iframe width="560" height="349" src="https://youtube.com/embed/8_9ELm68Ipc" allowfullscreen></iframe>
-            </div>
-        </div>
-        <footer class="copyright">
-            <a class="up" id="up" href="#">
-                <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </a>
-            <p>&copy; 2020 Caleb Ashley</p>
-        </footer>
     </div>
 
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
+        <h1>Videos</h1>
+    </div>
+    <div class="container" data-aos="zoom-in-right" data-aos-delay="500" data-aos-duration="2000">
+        <div class="box">
+            <iframe width="560" height="349" src="https://youtube.com/embed/do3d-ku3r-I" allowfullscreen></iframe>
+        </div>
+        <div class="box">
+            <iframe width="560" height="349" src="https://youtube.com/embed/-OiFLL2MBsw" allowfullscreen></iframe>
+        </div>
+        <div class="box">
+            <iframe width="560" height="349" src="https://youtube.com/embed/klwud-ERPfY" allowfullscreen></iframe>
+        </div>
+        <div class="box">
+            <iframe width="560" height="349" src="https://youtube.com/embed/8_9ELm68Ipc" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer class="copyright">
+        <a class="up" id="up" href="#">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </a>
+        <p>&copy; 2020 Caleb Ashley</p>
+    </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src="function.js"></script>
     <script scr="gallery.js"></script>
     <script src="https://kit.fontawesome.com/745a12f2bd.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
