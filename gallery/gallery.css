@@ -407,6 +407,10 @@ html, body {
     .landing-text h1 {
         font-size: 5rem;
     }
+    
+    .header h1{
+    font-size: 5rem;
+    }
 
     .menu-toggler {
         top: 2rem;
