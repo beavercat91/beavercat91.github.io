@@ -154,9 +154,9 @@ html, body {
 }
 
 .resp-iframe {
-    width: 500px; /* It should not be 100% */
+    width: 500px;
     height: 500px;
-    margin-left: auto; /* Automatic margin from left */
+    margin-left: auto;
     margin-right: auto;
 }
 
