@@ -276,7 +276,7 @@ li{
 }
 
 .about-details p {
-    background: rgb(0, 0, 0, 0.6);
+    background: black;
     padding: 10px;
     text-align: justify;
     border: inset aqua;
@@ -333,7 +333,7 @@ li{
 
 .skill p {
     font-size: 2rem;
-    background: rgb(0, 0, 0, 0.6);
+    background: black;
     padding: 2rem;
     text-align: justify;
     border: inset aqua;
@@ -407,7 +407,7 @@ li{
 }
 
 .portfolio-description p{
-    background: rgb(0, 0, 0, 0.6);
+    background: black;
     padding: 10px;
     text-align: justify;
     border:inset aqua;
