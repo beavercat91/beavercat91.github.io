@@ -2,6 +2,124 @@ html {
     scroll-behavior: smooth;
 }
 
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.fixedNav #navigationBar {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+}
+
+#navigationBar {
+    width: 100%;
+}
+
+.top-nav {
+    z-index: 1500;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #1f1d1d;
+    top: -100vh;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transition: all 650ms cubic-bezier(1,0,0,1);
+}
+
+.nav-list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 2rem;
+}
+
+.nav-link {
+    font-family: 'Cyber';
+    color: aqua;
+    text-shadow: 0 0 10px mediumvioletred;
+    font-size: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+    .nav-link:hover,
+    .nav-link:focus {
+        background: linear-gradient(to top, red, purpl);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+.top-nav.open {
+    top: 0;
+    border-radius: initial;
+}
+
+.menu-toggler {
+    z-index: 2000;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 650ms ease-out;
+}
+
+    .menu-toggler.open {
+        z-index: 1501;
+        transform: rotate(-45deg);
+    }
+
+.bar {
+    z-index: 1501;
+    background: aqua;
+    width: 100%;
+    height: 4px;
+    border-radius: .8rem;
+    box-shadow: 0 0 20px aqua;
+}
+
+    .bar.half {
+        z-index: 1501;
+        width: 50%;
+    }
+
+    .bar.start {
+        z-index: 1501;
+        align-self: flex-end;
+        transform-origin: left;
+        transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    }
+
+.open .bar.start {
+    z-index: 1501;
+    transform: rotate(-850deg) translateX(.8rem);
+}
+
+.bar.end {
+    z-index: 1501;
+    transform-origin: right;
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+.open .bar.end {
+    z-index: 1501;
+    transform: rotate(-400deg) translateX(-.8rem);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -49,9 +167,9 @@ body {
     -moz-column-gap: 10px;
     column-gap: 10px;
     margin-top: 10px;
-    overflow: hidden;
     width: 100%;
     padding: 1rem;
+    
 }
 
 .gallery img {
@@ -154,9 +272,9 @@ html, body {
 }
 
 .resp-iframe {
-    width: 500px;
+    width: 500px; /* It should not be 100% */
     height: 500px;
-    margin-left: auto;
+    margin-left: auto; /* Automatic margin from left */
     margin-right: auto;
 }
 
@@ -181,17 +299,13 @@ html, body {
     position: relative;
     height: 100%;
     overflow-y: scroll;
-    border: inset aqua 5px;
+    border: inset aqua;
     box-shadow: 0 0 20px aqua;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 3rem;
     border-radius: 1rem;
     background: black;
-}
-
-.container:hover{
-boax-shadow: 0 0 20px mediumvioletred;
 }
 
 .header h1 {
@@ -246,12 +360,27 @@ boax-shadow: 0 0 20px mediumvioletred;
         -webkit-text-fill-color: transparent;
     }
 
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(191, 41, 20, 0.99);
+    }
+
+    70% {
+        box-shadow: 0 0 0 2rem rgba(191, 31, 2, 0.00);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(191, 51, 20, 0.00);
+    }
+}
+
 @media screen and (max-width: 800px) {
     .landing-text h1 {
         font-size: 10rem;
     }
-    
-        .header h1 {
+
+    .header h1 {
         font-size: 10rem;
     }
 
@@ -259,15 +388,37 @@ boax-shadow: 0 0 20px mediumvioletred;
         -webkit-column-count: 2;
         -moz-column-count: 2;
     }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 2rem 0;
+    }
+
+    .nav-link {
+        font-size: 4.5rem;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
     .landing-text h1 {
         font-size: 5rem;
     }
-    
-        .header h1 {
-        font-size: 5rem;
+
+    .menu-toggler {
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .nav-link {
+        font-size: 3.5rem;
+    }
+
+    .header h1 {
+        font-size: 8rem;
     }
 
     .container-gallery {
@@ -283,19 +434,4 @@ boax-shadow: 0 0 20px mediumvioletred;
 @font-face {
     font-family: "cyber";
     src: url("cyber.woff") format('woff');
-}
-
-
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(191, 41, 20, 0.99);
-    }
-
-    70% {
-        box-shadow: 0 0 0 2rem rgba(191, 31, 2, 0.00);
-    }
-
-    100% {
-        box-shadow: 0 0 0 0 rgba(191, 51, 20, 0.00);
-    }
 }
