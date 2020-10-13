@@ -415,10 +415,11 @@ html, body {
     .menu-toggler {
         top: 1rem;
         right: 1rem;
+        font-size: .5rem;
     }
 
     .nav-link {
-        font-size: 1.5rem;
+        font-size: 3.5rem;
     }
 
     .header h1 {
