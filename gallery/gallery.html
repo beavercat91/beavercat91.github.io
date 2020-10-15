@@ -34,46 +34,6 @@
             </ul>
         </nav>
     </div>
-    
-        <script type="text/javascript">
-        $(document).ready(function () {
-        $('.menu-toggler').on('click', function () {
-        $(this).toggleClass('open');
-        $('.top-nav').toggleClass('open');
-        });
-
-        $('.top-nav .nav-link').on('click', function () {
-        $('.menu-toggler').removeClass('open');
-        $('.top-nav').removeClass('open');
-        });
-
-        $('nav a[href*="#"]').on('click', function () {
-        $('html, body').animate( {
-        scrollTop: $($(this).attr('href')).offset().top - 100
-        });
-        });
-
-        $('#up').on('click', function () {
-        $('html, body').animate(  {
-        scrollTop: 0
-        });
-        });
-
-        const nav = $("#navigationBar");
-        const navTop = nav.offset().top;
-        $(window).on("scroll", stickyNavigation);
-        function stickyNavigation() {
-        var body = $("body");
-        if($(window).scrollTop() >= navTop) {
-        body.css("padding-top", nav.outerHeight() + "px");
-        body.addClass("fixedNav");
-        } else {
-        body.css("padding-top", 0);
-        body.removeClass("fixedNav");
-        }
-        }
-        });
-    </script>
 
     <div id="head" class="landing-text" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
         <h1>Gallery</h1>
@@ -130,7 +90,45 @@
         </a>
         <p>&copy; 2020 Caleb Ashley</p>
     </footer>
+<script type="text/javascript">
+        $(document).ready(function () {
+        $('.menu-toggler').on('click', function () {
+        $(this).toggleClass('open');
+        $('.top-nav').toggleClass('open');
+        });
 
+        $('.top-nav .nav-link').on('click', function () {
+        $('.menu-toggler').removeClass('open');
+        $('.top-nav').removeClass('open');
+        });
+
+        $('nav a[href*="#"]').on('click', function () {
+        $('html, body').animate( {
+        scrollTop: $($(this).attr('href')).offset().top - 100
+        });
+        });
+
+        $('#up').on('click', function () {
+        $('html, body').animate(  {
+        scrollTop: 0
+        });
+        });
+
+        const nav = $("#navigationBar");
+        const navTop = nav.offset().top;
+        $(window).on("scroll", stickyNavigation);
+        function stickyNavigation() {
+        var body = $("body");
+        if($(window).scrollTop() >= navTop) {
+        body.css("padding-top", nav.outerHeight() + "px");
+        body.addClass("fixedNav");
+        } else {
+        body.css("padding-top", 0);
+        body.removeClass("fixedNav");
+        }
+        }
+        });
+    </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
     <script src="https://kit.fontawesome.com/745a12f2bd.js" crossorigin="anonymous"></script>
