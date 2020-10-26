@@ -225,8 +225,8 @@ li{
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
-        color: mediumvioletred;
-        text-shadow: 0 0 30px aqua;
+        color: white;
+        text-shadow: 0 0 30px black;
         padding: 1rem;
         user-select: none;
     }
@@ -235,8 +235,8 @@ li{
     font-family: 'cyber';
     font-size: 10rem;
     font-weight: 300;
-    color: mediumvioletred;
-    text-shadow: 0 0 5px aqua;
+    color: white;
+    text-shadow: 0 0 5px black;
 }
 /*End header*/
 
