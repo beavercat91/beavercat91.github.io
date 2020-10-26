@@ -134,8 +134,8 @@ li{
 
 .nav-link{
     font-family: 'Cyber';
-    color: aqua;
-    text-shadow: 0 0 10px mediumvioletred;
+    color: mediumvioletred;
+    text-shadow: 0 0 10px aqua;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -225,8 +225,8 @@ li{
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
-        color: aqua;
-        text-shadow: 0 0 30px black;
+        color: black;
+        text-shadow: 0 0 30px aqua;
         padding: 1rem;
         user-select: none;
     }
@@ -235,8 +235,8 @@ li{
     font-family: 'cyber';
     font-size: 10rem;
     font-weight: 300;
-    color: aqua;
-    text-shadow: 0 0 5px black;
+    color: black;
+    text-shadow: 0 0 5px aqua;
 }
 /*End header*/
 
@@ -647,7 +647,6 @@ body{
     width: 20px;
     height: 20px;
     background: rgba(0, 255, 247, 0.5);
-    box-shadow: 0 0 20px black;
     animation: animate 25s linear infinite;
     bottom: -150px;
     
@@ -731,6 +730,19 @@ body{
 
 
 
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
 
 }
 /*end background*/
@@ -752,20 +764,6 @@ body{
         box-shadow: 0 0 15px aqua;
     }
 }
-
-@keyframes animate {
-
-    0%{
-        transform: translateY(0) rotate(0deg);
-        opacity: 1;
-        border-radius: 0;
-    }
-
-    100%{
-        transform: translateY(-1000px) rotate(720deg);
-        opacity: 0;
-        border-radius: 50%;
-    }
 
 @keyframes pulse {
     0%{
