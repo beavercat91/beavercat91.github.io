@@ -134,15 +134,15 @@ li{
 
 .nav-link{
     font-family: 'Cyber';
-    color: mediumvioletred;
-    text-shadow: 0 0 10px aqua;
+    color: aqua;
+    text-shadow: 0 0 10px mediumvioletred;
     font-size: 5rem;
     padding: 1rem;
 }
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, red, purpl);
+    background: linear-gradient(to top, red, purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -225,8 +225,8 @@ li{
         font-family: 'Cyber';
         font-weight: normal;
         font-style: normal;
-        color: black;
-        text-shadow: 0 0 30px aqua;
+        color: aqua;
+        text-shadow: 0 0 30px black;
         padding: 1rem;
         user-select: none;
     }
@@ -235,8 +235,8 @@ li{
     font-family: 'cyber';
     font-size: 10rem;
     font-weight: 300;
-    color: black;
-    text-shadow: 0 0 5px aqua;
+    color: aqua;
+    text-shadow: 0 0 5px black;
 }
 /*End header*/
 
@@ -647,6 +647,7 @@ body{
     width: 20px;
     height: 20px;
     background: rgba(0, 255, 247, 0.5);
+    box-shadow: 0 0 20px black;
     animation: animate 25s linear infinite;
     bottom: -150px;
     
