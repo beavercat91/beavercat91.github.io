@@ -133,19 +133,6 @@ html, body {
     height: 100%;
 }
 
-.landing-text h1 {
-    font-size: 12rem;
-    font-family: 'cyber';
-    font-weight: normal;
-    font-style: normal;
-    color: aqua;
-    text-shadow: 0 0 20px black;
-    padding: 1rem;
-    user-select: none;
-    text-align: center;
-}
-
-
 body {
     font-family: 'Roboto Slab', serif;
     color: blue;
@@ -215,7 +202,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     color: aqua;
-    text-shadow: 0 0 20px mediumvioletred;
+    text-shadow: 0 0 20px black;
     padding: 1rem;
     user-select: none;
     text-align: center;
