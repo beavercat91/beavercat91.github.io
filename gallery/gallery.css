@@ -53,7 +53,7 @@ li {
 
     .nav-link:hover,
     .nav-link:focus {
-        background: linear-gradient(to top, red, purpl);
+        background: linear-gradient(to top, red, purple);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -330,21 +330,6 @@ html, body {
 body{
     font-family: 'Exo', sans-serif;
 }
-
-
-.context {
-    width: 100%;
-    position: absolute;
-    top:50vh;
-    
-}
-
-.context h1{
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
-}
-
 
 .area{
     background: linear-gradient(to top, mediumvioletred, purple);    
