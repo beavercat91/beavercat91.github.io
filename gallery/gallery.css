@@ -202,7 +202,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     background: linear-gradient(to top, blue, aqua);
-    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-shadow: 0 0 20px black;
     padding: 1rem;
     user-select: none;
