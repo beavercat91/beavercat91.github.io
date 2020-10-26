@@ -139,7 +139,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     color: aqua;
-    text-shadow: 0 0 20px mediumvioletred;
+    text-shadow: 0 0 20px black;
     padding: 1rem;
     user-select: none;
     text-align: center;
@@ -312,7 +312,7 @@ html, body {
     font-weight: normal;
     font-style: normal;
     color: aqua;
-    text-shadow: 0 0 20px mediumvioletred;
+    text-shadow: 0 0 20px black;
     padding: 1rem;
     user-select: none;
     text-align: center;
