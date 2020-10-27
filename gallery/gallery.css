@@ -459,7 +459,7 @@ body{
         color: #eee;
     }
 
-#up {
+.up {
     position: absolute;
     width: 3rem;
     height: 3rem;
@@ -472,7 +472,7 @@ body{
     cursor: pointer;
 }
 
-    #up i {
+    .up i {
         color: red;
         font-size: 2rem;
         margin: auto;
