@@ -646,7 +646,7 @@ body{
     list-style: none;
     width: 20px;
     height: 20px;
-    background: radial-gradient(aqua, mediumvioletred);
+    background: radial-gradient(purple, mediumvioletred);
     box-shadow: 0 0 20px black;
     animation: animate 25s linear infinite;
     bottom: -150px;
