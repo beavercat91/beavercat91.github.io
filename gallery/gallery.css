@@ -318,13 +318,15 @@ body{
     font-family: 'Exo', sans-serif;
 }
 
-.area{
-    background: linear-gradient(to top, mediumvioletred, black, black, black, black, black, black, black, mediumvioletred);
+.area {
+    background: linear-gradient(-45deg, mediumvioletred, black, black, purple, orange, red);
     width: 100%;
-    height:100vh;
-    position: fixed; 
+    height: 100vh;
+    position: fixed;
     top: 0px;
-    z-index:-1;
+    z-index: -1;
+    background-size: 400% 400%;
+    animation: change 15s ease infinite;
 }
 
 .circles{
@@ -425,8 +427,6 @@ body{
     animation-duration: 11s;
 }
 
-
-
 @keyframes animate {
 
     0%{
@@ -441,6 +441,18 @@ body{
         border-radius: 50%;
     }
 
+}
+
+@keyframes change{
+    0%{
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /*end background*/
