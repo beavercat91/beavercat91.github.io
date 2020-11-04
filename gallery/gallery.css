@@ -603,7 +603,3 @@ body{
     -moz-transition: opacity 1.5s ease-in; /* Firefox */
     -webkit-transition: opacity 1.5s ease-in;
 }
-
-.content:hover{
-opacity: 0.5;
-}
