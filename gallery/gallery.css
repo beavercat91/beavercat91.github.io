@@ -319,7 +319,7 @@ body{
 }
 
 .area {
-    background: linear-gradient(-45deg,rgb(252, 0, 0), mediumvioletred, purple, rgb(0, 232, 255), blue, red);
+    background: linear-gradient(-45deg,rgb(252, 0, 0), mediumvioletred, purple, blue, rgb(0, 232, 255), red);
     width: 100%;
     height: 100vh;
     position: fixed;
