@@ -582,7 +582,7 @@ body{
 
 .content .text {
     position: relative;
-    bottom: 10%;
+    bottom: 30px;
     left: 0px;
     opacity: 0;
     background: black;
