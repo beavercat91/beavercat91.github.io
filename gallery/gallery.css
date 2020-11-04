@@ -581,8 +581,8 @@ body{
 }
 
 .content .text {
-    position: absolute;
-    bottom: 8px;
+    position: relative;
+    bottom: 100px;
     left: 16px;
     opacity: 0;
     background: black;
