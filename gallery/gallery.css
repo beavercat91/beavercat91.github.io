@@ -588,6 +588,7 @@ body{
     background: black;
     padding: 1rem;
     width: 90%;
+    text-align: center;
     color: white;
     border:solid aqua 1px;
     border-radius: 20%;
