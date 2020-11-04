@@ -579,3 +579,26 @@ body{
     font-family: "cyber";
     src: url("cyber.woff") format('woff');
 }
+
+.content .text {
+    position: relative;
+    bottom: 10%;
+    left: 0px;
+    opacity: 0;
+    background: black;
+    padding: 1rem;
+    width: 20%;
+    color: white;
+    border:solid aqua 1px;
+    border-radius: 20%;
+    box-shadow: 0 0 10px;
+}
+
+.content:hover .text {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in; /* vendorless fallback */
+    -o-transition: opacity 0.5s ease-in; /* opera */
+    -ms-transition: opacity 0.5s ease-in; /* IE 10 betas, not needed in final build. */
+    -moz-transition: opacity 0.5s ease-in; /* Firefox */
+    -webkit-transition: opacity 0.5s ease-in;
+}
